@@ -1,0 +1,43 @@
+--- Solving Test Case 1 ---
+Processing matrix row 1 of 3...
+Processing matrix row 2 of 3...
+Processing matrix row 3 of 3...
+
+🔍 Validating solution with remaining points...
+  - Point (6, ...): OK
+✨ Validation successful!
+
+✅ Solution Found
+---------------------
+Polynomial Degree: 2
+Coefficients (c2 ... c0):
+  c2: 1
+  c1: 0
+  c0: 3
+
+=============================
+
+--- Solving Test Case 2 ---
+Processing matrix row 1 of 7...
+Processing matrix row 2 of 7...
+(This part will take a few minutes)
+...
+Processing matrix row 7 of 7...
+
+🔍 Validating solution with remaining points...
+  - Point (8, ...): OK
+  - Point (9, ...): OK
+  - Point (10, ...): OK
+✨ Validation successful!
+
+✅ Solution Found
+---------------------
+Polynomial Degree: 6
+Coefficients (c6 ... c0):
+  c6: 12
+  c5: 0
+  c4: -25
+  c3: 0
+  c2: 153
+  c1: 0
+  c0: 1947
