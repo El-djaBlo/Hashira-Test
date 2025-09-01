@@ -1,0 +1,22 @@
+Summary of Improvements
+Here is a list of the new features we've implemented that were not part of the original problem specification.
+
+Dynamic File Input 📂
+
+Instead of hardcoding the JSON data inside the script, the program now reads it from a file. You provide the file's path as a command-line argument, making the tool reusable for any test case.
+
+Robust Error Handling 🛡️
+
+The script now gracefully handles common errors. If you provide a wrong file path or if the JSON file is badly formatted, it will print a user-friendly error message instead of crashing.
+
+Solution Validation ✅
+
+The program uses the extra data points (the ones not needed to solve the polynomial) to automatically verify the solution. It confirms that the calculated coefficients are correct for the entire data set.
+
+Modular Code Structure 📦
+
+The code is now split into two files:
+
+fraction.js: A self-contained "module" for all the logic related to handling fractions.
+
+solve.js: The main script, which now focuses only on the polynomial-solving logic and file handling. This separation makes the code cleaner and easier to maintain.
