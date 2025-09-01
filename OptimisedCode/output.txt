@@ -1,0 +1,20 @@
+Reading input from: testcase3.json
+
+Processing matrix row 1 of 4...
+Processing matrix row 2 of 4...
+Processing matrix row 3 of 4...
+Processing matrix row 4 of 4...
+
+🔍 Validating solution with remaining points...
+  - Point (5, ...): OK
+  - Point (6, ...): OK
+✨ Validation successful!
+
+✅ Solution Found
+---------------------
+Polynomial Degree: 3
+Coefficients (c3 ... c0):
+  c3: 2
+  c2: 0
+  c1: -5
+  c0: 7
